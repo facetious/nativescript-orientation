@@ -1,89 +1,93 @@
 {
-		"name": "nativescript-orientation",
-		"version": "2.2.4",
-		"description": "A NativeScript plugin to deal with Declarative UI and Screen Orientation",
-		"main": "orientation",
-		"typings": "index.d.ts",
-		"nativescript": {
-				"platforms": {
-						"android": "6.0.0",
-						"ios": "6.0.0"
-				},
-				"plugin": {
-						"nan": "true",
-						"pan": "true",
-						"vue": "true",
-						"core3": "true",
-						"category": "Processing"
-				}
-		},
-		"repository": {
-				"type": "git",
-				"url": "https://proplugins.org/proplugins/nativescript-orientation.git"
-		},
-		"dependencies": {
-				"nativescript-globalevents": "latest",
-				"nativescript-dom": "latest"
-		},
-		"keywords": [
-				"NativeScript",
-				"orientation",
-				"landscape",
-				"ios",
-				"android"
-		],
-		"author": {
-				"name": "Nathanael Anderson",
-				"email": "nathan@master-technology.com"
-		},
-		"contributors": [
-				{
-						"name": "Ashton Cummings",
-						"email": "acummings@colsa.com",
-						"url": "https://github.com/prolink007"
-				},
-				{
-						"name": "Dick Smith",
-						"email": "richard.smith@ugroupmedia.com",
-						"url": "https://github.com/DickSmith"
-				},
-				{
-						"name": "Dimitar Tachev",
-						"email": "Dimitar.Tachev@progress.com",
-						"url": "https://github.com/DimitarTachev"
-				},
-				{
-						"name": "Emiel Beeksma",
-						"email": "emielb@users.noreply.github.com",
-						"url": "https://github.com/emielb"
-				},
-				{
-						"name": "Zsolt Racz",
-						"email": "rzsolt2@hotmail.com",
-						"url": "https://github.com/zsolt-racz"
-				},
-				{
-						"name": "Brad Martin",
-						"email": "bmartin@nstudio.io",
-						"url": "https://github.com/bradmartin"
-				},
-				{
-						"name": "Brad Linard",
-						"email": "brad.linard@idelata.com",
-						"url": "https://github.com/blinard"
-				}
-		],
-		"license": {
-				"type": "MIT",
-				"url": "https://proplugins.org/proplugins/nativescript-orientation/blob/master/LICENSE"
-		},
-		"bugs": {
-				"url": "https://proplugins.org/proplugins/nativescript-orientation/issues"
-		},
-		"scripts": {
-			"postinstall": "node postinstall.js || echo \"ignore\""
-		},
-		"homepage": "https://proplugins.org/proplugins/nativescript-orientation",
-		"readmeFilename": "README.md",
-		"devDependencies": {}
+    "name": "nativescript-orientation",
+    "version": "2.2.4-nanometrics",
+    "description": "A NativeScript plugin to deal with Declarative UI and Screen Orientation",
+    "main": "orientation",
+    "typings": "index.d.ts",
+    "nativescript": {
+        "platforms": {
+            "android": "6.0.0",
+            "ios": "6.0.0"
+        },
+        "plugin": {
+            "nan": "true",
+            "pan": "true",
+            "vue": "true",
+            "core3": "true",
+            "category": "Processing"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/facetious/nativescript-orientation.git"
+    },
+    "dependencies": {
+        "nativescript-globalevents": "latest",
+        "nativescript-dom": "latest"
+    },
+    "keywords": [
+        "NativeScript",
+        "orientation",
+        "landscape",
+        "ios",
+        "android"
+    ],
+    "author": {
+        "name": "Nathanael Anderson",
+        "email": "nathan@master-technology.com"
+    },
+    "contributors": [{
+            "name": "Ashton Cummings",
+            "email": "acummings@colsa.com",
+            "url": "https://github.com/prolink007"
+        },
+        {
+            "name": "Dick Smith",
+            "email": "richard.smith@ugroupmedia.com",
+            "url": "https://github.com/DickSmith"
+        },
+        {
+            "name": "Dimitar Tachev",
+            "email": "Dimitar.Tachev@progress.com",
+            "url": "https://github.com/DimitarTachev"
+        },
+        {
+            "name": "Emiel Beeksma",
+            "email": "emielb@users.noreply.github.com",
+            "url": "https://github.com/emielb"
+        },
+        {
+            "name": "Zsolt Racz",
+            "email": "rzsolt2@hotmail.com",
+            "url": "https://github.com/zsolt-racz"
+        },
+        {
+            "name": "Brad Martin",
+            "email": "bmartin@nstudio.io",
+            "url": "https://github.com/bradmartin"
+        },
+        {
+            "name": "Brad Linard",
+            "email": "brad.linard@idelata.com",
+            "url": "https://github.com/blinard"
+        },
+        {
+            "name": "Ian MacDonald",
+            "email": "ianmacdonald@nanometrics.ca",
+            "url": "https://github.com/facetious"
+        }
+    ],
+    "license": {
+        "type": "MIT",
+        "url": "https://proplugins.org/proplugins/nativescript-orientation/blob/master/LICENSE"
+    },
+    "bugs": {
+        "url": "https://proplugins.org/proplugins/nativescript-orientation/issues"
+    },
+    "scripts": {
+        "postinstall": "node postinstall.js || echo \"ignore\""
+    },
+    "homepage": "https://proplugins.org/proplugins/nativescript-orientation",
+    "readmeFilename": "README.md",
+    "devDependencies": {}
 }
