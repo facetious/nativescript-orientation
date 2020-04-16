@@ -211,13 +211,17 @@ if (global.android) {
         allowRotation = false; // disable rotations...
 
         forceRotation = true;
-        var currentOrientation = device.orientation;
-        // We have to swap to a different orientation FIRST, if the current orientation matches
-        if (newOrientation === currentOrientation) {
-            var tempOrientation = newOrientation - 1;
-            if (tempOrientation < 1) { tempOrientation += 2; }
-            device.setValueForKey(tempOrientation, "orientation");
-        }
+
+        // Removed because it makes portrait iPad go visually upside down...
+
+        // var currentOrientation = device.orientation;
+        // // We have to swap to a different orientation FIRST, if the current orientation matches
+        // if (newOrientation === currentOrientation) {
+        //     var tempOrientation = newOrientation - 1;
+        //     if (tempOrientation < 1) { tempOrientation += 2; }
+        //     device.setValueForKey(tempOrientation, "orientation");
+        // }
+
         device.setValueForKey(newOrientation, "orientation");
         forceRotation = false;
 
